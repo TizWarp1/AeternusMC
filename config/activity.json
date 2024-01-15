@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "TizWarp",
+      "uniqueId": "8151c52b-a39a-41cc-bbaf-79ef43f92d3b"
+    },
+    "time": 1705296586101,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/DksmpyYtXK"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TizWarp",
+      "uniqueId": "8151c52b-a39a-41cc-bbaf-79ef43f92d3b"
+    },
+    "time": 1705296102549,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/TnJbZF3KT8"
+    }
+  }
+]

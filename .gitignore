@@ -1,0 +1,11 @@
+saves
+*.log
+logs
+crash-reports
+config.json
+usercache.json
+patchouli_data.json
+usernamecache.json
+options.txt
+jei_bookmarks.ini
+minemenu
