@@ -35,5 +35,14 @@
       "properties": {}
     },
     "temperature": 12.5
+  },
+  {
+    "state": {
+      "block": "pyrotech:campfire",
+      "properties": {
+        "variant": "LIT"
+      }
+    },
+    "temperature": 7.0
   }
 ]

@@ -25,6 +25,7 @@
       "langKey": [
         "geolosys:geolosys.cluster.aluminum",
         "immersiveengineering:tile.immersiveengineering.ore.aluminum",
+        "libvulpes:material.Aluminum",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_1",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_1",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_1",
@@ -51,7 +52,8 @@
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_1"
       ],
       "output": [
-        "immersiveengineering:metal:21"
+        "immersiveengineering:metal:21",
+        "libvulpes:productnugget:9"
       ],
       "bloomYieldMinMax": [
         12,
@@ -65,8 +67,19 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
+        "basemetals:tile.basemetals.copper_ore",
         "geolosys:geolosys.cluster.copper",
         "immersiveengineering:tile.immersiveengineering.ore.copper",
+        "libvulpes:material.Copper",
+        "mekanism:tile.OreBlock.CopperOre",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_copper_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
@@ -75,6 +88,22 @@
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_copper_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore",
@@ -83,6 +112,22 @@
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_copper_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore",
@@ -90,10 +135,21 @@
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore",
-        "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore"
+        "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_1"
       ],
       "output": [
-        "immersiveengineering:metal:20"
+        "basemetals:copper_nugget:0",
+        "immersiveengineering:metal:20",
+        "libvulpes:productnugget:4",
+        "mekanism:nugget:5"
       ],
       "bloomYieldMinMax": [
         12,
@@ -136,6 +192,23 @@
       ],
       "output": [
         "minecraft:gold_nugget:0"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
+    },
+    "oreIridium": {
+      "slagColor": "d5d4e7",
+      "langKey": [
+        "libvulpes:material.Iridium"
+      ],
+      "output": [
+        "libvulpes:productnugget:10"
       ],
       "bloomYieldMinMax": [
         12,
@@ -192,8 +265,17 @@
     "oreLead": {
       "slagColor": "95afee",
       "langKey": [
+        "basemetals:tile.basemetals.lead_ore",
         "geolosys:geolosys.cluster.lead",
         "immersiveengineering:tile.immersiveengineering.ore.lead",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_lead_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
@@ -202,6 +284,14 @@
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_lead_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_2",
@@ -210,6 +300,14 @@
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_2",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_lead_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_2",
@@ -220,6 +318,7 @@
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_2"
       ],
       "output": [
+        "basemetals:lead_nugget:0",
         "immersiveengineering:metal:22"
       ],
       "bloomYieldMinMax": [
@@ -234,8 +333,17 @@
     "oreNickel": {
       "slagColor": "e4e5d8",
       "langKey": [
+        "basemetals:tile.basemetals.nickel_ore",
         "geolosys:geolosys.cluster.nickel",
         "immersiveengineering:tile.immersiveengineering.ore.nickel",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_nickel_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_4",
@@ -244,6 +352,14 @@
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_4",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_nickel_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_4",
@@ -252,6 +368,14 @@
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_4",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_nickel_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_4",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_4",
@@ -262,7 +386,92 @@
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_4"
       ],
       "output": [
+        "basemetals:nickel_nugget:0",
         "immersiveengineering:metal:24"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
+    },
+    "oreOsmium": {
+      "slagColor": "9babc4",
+      "langKey": [
+        "geolosys:geolosys.cluster.osmium",
+        "mekanism:tile.OreBlock.OsmiumOre",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock"
+      ],
+      "output": [
+        "mekanism:nugget:1"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
+    },
+    "orePlatinum": {
+      "slagColor": "55f3ff",
+      "langKey": [
+        "basemetals:tile.basemetals.platinum_ore",
+        "geolosys:geolosys.cluster.platinum",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_platinum_ore"
+      ],
+      "output": [
+        "basemetals:platinum_nugget:0"
       ],
       "bloomYieldMinMax": [
         12,
@@ -276,8 +485,17 @@
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
+        "basemetals:tile.basemetals.silver_ore",
         "geolosys:geolosys.cluster.silver",
         "immersiveengineering:tile.immersiveengineering.ore.silver",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_silver_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_3",
@@ -286,6 +504,14 @@
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_3",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_silver_ore",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_3",
@@ -294,6 +520,14 @@
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.metamorphic_stone_immersiveengineering_ore_3",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_silver_ore",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_3",
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_3",
@@ -304,7 +538,78 @@
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_3"
       ],
       "output": [
+        "basemetals:silver_nugget:0",
         "immersiveengineering:metal:23"
+      ],
+      "bloomYieldMinMax": [
+        12,
+        15
+      ],
+      "slagBloomYieldMinMax": [
+        12,
+        15
+      ]
+    },
+    "oreTin": {
+      "slagColor": "c3e9ff",
+      "langKey": [
+        "basemetals:tile.basemetals.tin_ore",
+        "geolosys:geolosys.cluster.tin",
+        "libvulpes:material.Tin",
+        "mekanism:tile.OreBlock.TinOre",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.igneous_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.metamorphic_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_basemetals_tin_ore",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2",
+        "undergroundbiomes:tile.sedimentary_stone_mekanism_oreblock_2"
+      ],
+      "output": [
+        "basemetals:tin_nugget:0",
+        "libvulpes:productnugget:5",
+        "mekanism:nugget:6"
       ],
       "bloomYieldMinMax": [
         12,

@@ -1,6 +1,18 @@
 {
   "version": 2,
   "data": {
+    "advancedrocketry:alien_forest": "FOREST",
+    "advancedrocketry:crystalchasms": "SNOW",
+    "advancedrocketry:deepswamp": "PLAINS",
+    "advancedrocketry:hotdryrock": "DESERT",
+    "advancedrocketry:marsh": "PLAINS",
+    "advancedrocketry:moon": "SNOW",
+    "advancedrocketry:moondark": "SNOW",
+    "advancedrocketry:oceanspires": "WATER",
+    "advancedrocketry:space": "PLAINS",
+    "advancedrocketry:stormland": "DESERT",
+    "advancedrocketry:volcanic": "DESERT_HILLS",
+    "advancedrocketry:volcanicbarren": "DESERT_HILLS",
     "minecraft:beaches": "SHORE",
     "minecraft:birch_forest": "BIRCH",
     "minecraft:birch_forest_hills": "BIRCH_HILLS",
@@ -62,6 +74,15 @@
     "minecraft:taiga_cold": "SNOW_PINES",
     "minecraft:taiga_cold_hills": "SNOW_PINES_HILLS",
     "minecraft:taiga_hills": "PINES_HILLS",
-    "minecraft:void": "END_VOID"
+    "minecraft:void": "END_VOID",
+    "pvj:aspen_grove": "FOREST",
+    "pvj:blossoming_fields": "FOREST",
+    "pvj:boreal_forest": "PINES",
+    "pvj:overgrown_spires": "JUNGLE",
+    "pvj:prairie": "PLAINS",
+    "pvj:redwood_peaks": "PINES_HILLS",
+    "pvj:redwoods": "PINES",
+    "pvj:snowy_boreal_forest": "PINES",
+    "pvj:willow_swamp": "SWAMP"
   }
 }

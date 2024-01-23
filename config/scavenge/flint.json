@@ -1,0 +1,105 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Netherrack",
+			"type":
+			{
+				"type": "block_list",
+                "blocks":
+                [
+                    {
+                        "name": "undergroundbiomes:metamorphic_gravel"
+                    },
+                    {
+                        "name":"undergroundbiomes:sedimentary_gravel"
+                    },
+                    {
+                        "name":"undergroundbiomes:igneous_gravel"
+                    },
+                    {
+                        "name":"minecraft:gravel"
+                    }
+
+                ]
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+                {
+                    "type":"damage_item",
+                    "amount":"1"
+                },
+                {
+                    "type":"play_sound",
+                    "name":"block.gravel.hit"
+                },
+                {
+                    "type": "consume_block",
+                    "chance":45
+                },
+                {
+                    "type":"add_hunger",
+                    "amount":2,
+                    "exhaustion":true
+                },
+                {
+                    "type":"swing_hand" 
+                },
+                {
+                    "type":"player_cooldown",
+                    "time":"10"
+                },
+                {
+                    "type": "array_condition",
+                    "and": false,
+                    "conditions":
+                    [
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:crude_shovel"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:bone_shovel"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:flint_shovel_durable"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:bone_shovel_durable"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"minecraft:iron_shovel"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"minecraft:golden_shovel"
+                        }
+                    ]
+                }
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:flint",
+                    "amount":"1",
+                    "chance":23
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Player requires to sneak"
+				}
+			]
+		}
+	]
+}

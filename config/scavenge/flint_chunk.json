@@ -1,0 +1,91 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "flint_chunk",
+			"type":
+			{
+				"type": "block_list",
+                "blocks":
+                [
+                    {
+                        "name": "undergroundbiomes:metamorphic_stone"
+                    },
+                    {
+                        "name":"undergroundbiomes:sedimentary_stone"
+                    },
+                    {
+                        "name":"undergroundbiomes:igneous_stone"
+                    },
+                    {
+                        "name": "undergroundbiomes:metamorphic_cobble"
+                    },
+                    {
+                        "name":"undergroundbiomes:sedimentary_cobble"
+                    },
+                    {
+                        "name":"undergroundbiomes:igneous_cobble"
+                    },
+                    {
+                        "name": "undergroundbiomes:metamorphic_cobble_mossy"
+                    },
+                    {
+                        "name":"undergroundbiomes:sedimentary_cobble_mossy"
+                    },
+                    {
+                        "name":"undergroundbiomes:igneous_cobble_mossy"
+                    }
+
+                ]
+			},
+			"clicktype": "left",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+                {
+                    "type":"play_sound",
+                    "name":"block.stone.hit"
+                },
+                {
+                    "type": "consume_item",
+                    "chance":50,
+                    "amount":"1"
+                },
+                {
+                    "type":"add_hunger",
+                    "amount":1,
+                    "exhaustion":true
+                },
+                {
+                    "type":"swing_hand" 
+                },
+                {
+                    "type":"player_cooldown",
+                    "time":"10"
+                },
+                {
+                    "type":"require_item",
+                    "name":"minecraft:flint"
+                }
+			],
+			"drops":
+			[
+				{
+					"name": "pyrotech:material",
+                    "amount":"1",
+                    "chance":45,
+                    "meta":"10"
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Player requires to sneak"
+				}
+			]
+		}
+	]
+}

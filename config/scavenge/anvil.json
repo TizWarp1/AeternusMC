@@ -1,0 +1,81 @@
+{
+	"block_pools" :
+	[
+		{
+			"name": "Netherrack",
+			"type":
+			{
+				"type": "block_list",
+                "blocks":
+                [
+                    {
+                        "name": "undergroundbiomes:metamorphic_stone_halfslab"
+                    },
+                    {
+                        "name":"undergroundbiomes:sedimentary_stone_halfslab"
+                    },
+                    {
+                        "name":"undergroundbiomes:igneous_stone_halfslab"
+                    }
+
+                ]
+			},
+			"clicktype": "both",
+			"properties":
+			[
+				{
+					"type": "require_sneak"
+				},
+                {
+                    "type": "consume_block",
+                    "name": "pyrotech_compat:anvil_andesite"
+                },
+                {
+                    "type": "array_condition",
+                    "and": false,
+                    "conditions":
+                    [
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:flint_hammer"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:bone_hammer"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:flint_hammer_durable"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:bone_hammer_durable"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:iron_hammer"
+                        },
+                        {
+                            "type":"require_item",
+                            "name":"pyrotech:gold_hammer"
+                        }
+                    ]
+                }
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:iron_ingot",
+                    "amount":0
+				}
+			],
+			"messages":
+			[
+				{
+					"id": "require_sneak",
+					"message": "Player requires to sneak"
+				}
+			]
+		}
+	]
+}
